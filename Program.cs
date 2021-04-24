@@ -35,7 +35,7 @@ namespace ws_midterm
                     {
                         fov = float.Parse(Console.ReadLine());
                     } while (fov < 0.1 && fov > 6.28);
-                    fLength = filmBackWidth / (2 * Math.Atan(fov / 2));
+                    fLength = filmBackWidth / (2 * Math.Tan(fov / 2));
                     Console.Write("fLength={0}", fLength);
                     Console.WriteLine(",fov={0}", fov);
 
