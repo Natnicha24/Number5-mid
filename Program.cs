@@ -25,8 +25,8 @@ namespace ws_midterm
 
                         }
                     } while (fLength < 0);
-                       
-                            fov = 2 * Math.Atan(filmBackWidth / 2, fLength);
+
+                    fov = 2 * Math.Atan(filmBackWidth / (2 * fLength));
                             Console.Write("fLength={0}", fLength);
                             Console.WriteLine(",fov={0}", fov);
                  }
