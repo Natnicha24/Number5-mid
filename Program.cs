@@ -46,7 +46,7 @@ namespace ws_midterm
                 Console.WriteLine("Invallid filmBackWidth.Please input again.");
               
             }
-;
+
         }
     }
 }
